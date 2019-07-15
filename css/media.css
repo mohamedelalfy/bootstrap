@@ -1,0 +1,48 @@
+/* smart phone and tablets */
+@media(max-width:767px)
+{
+    .navbar-inverse .navbar-nav > li > a
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover
+    {
+            
+            color:#fff;
+    }
+    
+    .subscribe .form-control 
+    {
+        margin: 20px auto;
+    }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collaps
+    {
+        max-height: none;
+    }
+    .testimonials .carousel-indicators li
+    {
+        margin-top: 35px;
+    }
+    .center_xs
+    {
+        text-align: center;    
+    }
+
+}
+/*small screen*/
+@media(min-width:768px)and@media(max-width:991px)
+{
+    
+}
+/* medium screen*/
+@media(min-width:992px)and@media(max-width:1199px)
+{
+    
+}
+/* large screen*/
+@media(min-width:1200px)
+{
+    
+}

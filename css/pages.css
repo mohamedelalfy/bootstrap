@@ -1,0 +1,130 @@
+/* fonface*/
+@font-face
+{
+    font-family:Italic-smooth;
+    src:url("../fonts/Kurale-Regular.ttf");
+}
+/* start breadcrumb */
+.breadtrumb_holder
+{   
+    font-size: 18px;
+    padding-top: 40px;
+    background-color: #f5f5f5;
+}
+.breadtrumb_holder .breadcrumb
+{
+    padding: 10px 0; 
+    margin-left: 30%;
+    
+}
+/* end breadcrumb */
+/* strat about section */
+.about-us{
+    margin-bottom: 60px
+}
+.aboutus
+{
+    padding-bottom: 70px;
+}
+.aboutus h1
+{
+    font-family: 'Italic-smooth', serif;
+    font-weight: bolder;
+}
+.aboutus hr
+{
+    width:70%;
+}
+.aboutus p
+{
+    letter-spacing: 1px;
+}
+.aboutus img
+{
+    width: 80%;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* end about section */
+/* start section */
+.about_features
+{
+    padding-top:10px;
+    padding-bottom: 70px;
+}
+.about_features h3
+{
+    font-family: 'Italic-smooth', serif;
+    font-weight: bolder;
+}
+.about_features p
+{
+    font-family: 'Italic-smooth', serif;
+    margin-bottom: 20px;
+}
+/* end section */
+/* start section CEO*/
+.about_ceo{
+    background-color: #EEE;
+    padding-top: 40px;
+}
+
+.about_ceo .lead
+{
+    line-height: 1.8em;
+}
+.about_ceo h2
+{
+    font-family: 'Italic-smooth', serif;
+    font-weight: bolder;
+}
+.about_ceo .btn-primary
+{
+    background-color: #333;
+    border-color:#333;
+
+}
+/* end section CEO*/
+/* start faq accordion */
+.faq
+{
+    padding-bottom: 40px;
+}
+.faq h1
+{
+    font-family: 'Italic-smooth', serif;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.faq h1~hr
+{
+width:70%;    
+}
+.faq-question
+{
+    padding-bottom: 70px;
+}
+.faq-question .panel-heading
+{
+    padding:20px 15px;
+}
+.faq-question .panel-heading a
+{
+    text-decoration: none;
+    font-family: 'Italic-smooth', serif;
+    font-weight: bolder;
+}
+.faq-question .panel-heading a:after
+{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color:#444;
+}
+.faq-question .panel-heading a.collapsed:after
+{
+    content: "\e080";
+    color:#999;
+}
+/* end faq accordion */
